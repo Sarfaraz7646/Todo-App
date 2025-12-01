@@ -1,0 +1,45 @@
+.delete {
+  background: skyblue;       /* remove default gray */
+  border:saddlebrown rgb(46, 29, 29);           /* remove default border */
+  color: red;             /* make it stand out */
+  font-size: 1.1rem;      /* larger for visibility */
+  cursor: pointer;        /* show pointer on hover */
+}
+
+.delete:hover {
+  color: darkred;         /* hover effect */
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.div {
+  width: 100px;   /* make it narrow */
+  height: 50px;   /* make it short */
+  padding: 5px;   /* reduce inner spacing */
+  margin: 5px;    /* reduce outer spacing */
+}
+.div {
+  display: inline-block;
+  border: solid beige;
+  width: auto;
+  height: auto;
+}
+
+
+
+html {
+  box-sizing: border-box;
+  font-size: 16px; /* base font size */
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
