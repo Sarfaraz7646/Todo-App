@@ -23,7 +23,7 @@ btn.addEventListener("click", function(){
 //         par.remove();
 //     });
 // }
-
+//dncm,.jklhjkl;
 ul.addEventListener("click", function(event) {
     console.dir(event.target.nodeName); // which button was clicked
     let listItem = event.target.parentElement;
